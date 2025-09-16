@@ -78,6 +78,7 @@ int main() {
     for (j = 0; j < total_cartas; j++) {
         printf("Código: %s\n", codigos[j]);
         printf("Estado: %s\n", nomes[j]);
+        printf("Cidade: %s\n", nomecidade[j]);
         printf("Área: %.2f mil km²\n", area[j]);
         printf("PIB: %.2f bilhões\n", pib[j]);
         printf("População: %d\n", populacao[j]);
