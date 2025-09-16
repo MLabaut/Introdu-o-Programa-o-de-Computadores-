@@ -53,7 +53,7 @@ int main() {
         getchar(); 
         scanf("%[^\n]", nomecidade[total_cartas]);
 
-        printf("Área e mil km²: ");
+        printf("Área em mil km²: ");
         scanf("%f", &area[total_cartas]);
 
         printf("PIB em bilhões: ");
